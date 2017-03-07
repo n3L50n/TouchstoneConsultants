@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/touchstone_image"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextAlignLeft"
+                android:layout_marginTop="12dp"
+                android:fontFamily="serif"
+                android:text="@string/company_title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"/>
+
+            <TextView
+                style="@style/TextAlignLeft"
+                android:text="@string/company_description"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                style="@style/TextAlignLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_human"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                style="@style/TextAlignLeft"
+                android:layout_marginTop="8dp"
+                android:text="@string/company_website"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                style="@style/TextAlignLeft"
+                android:layout_marginRight="12dp"
+                android:text="@string/company_body_text"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:padding="6dp"
+                android:text="@string/contact_us"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHighlight="@color/colorAccent"/>
+
+            <ImageView
+                android:layout_width="143dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/touchstone_logo"/>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

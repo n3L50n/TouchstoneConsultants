@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TouchstoneConsultants</string>
+    <string name="company_title">Touchstone Consultants</string>
+    <string name="company_description">Plans, Permits, &amp; Project Management</string>
+    <string name="company_human">Mark Heckey</string>
+    <string name="company_website">www.touchstone-consultants.net</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="company_body_text">Touchstone Consultants provides high quality real estate development &amp; permit processing services throughout Northern California. Touchstone provides real estate site selection, market studies, project financing, &amp; permit consulting.</string>
+</resources>
